@@ -6,6 +6,7 @@ h1 {
   margin: 50px auto 0 auto;
   font-family: Caveat, sans-serif;
   color: #146356;
+  line-height: 2;
 }
 body {
   margin: 0;
@@ -16,23 +17,43 @@ h2 {
   font-size: 2.5rem;
   font-family: Dosis, sans-serif;
   color: #146356;
+  font-weight: normal;
 }
 h3 {
   font-family: Dosis, sans-serif;
-  color: #146356;
+  color: #658758;
 }
+a {
+  color: #658758;
+  text-decoration: none;
+  font-family: Domine, serif;
+}
+hr {
+  width: 5%;
+  border-style: dotted none none none;
+  margin: 100px auto;
+  border-width: 7px;
+  clear: right;
+  color: gray;
+}
+p {
+  line-height: 2;
+}
+
 
 /******************** CLASS SELECTORS *********************/
 .top-container {
   background-color: #F3C892;
   position: relative;
-  padding-top: 100px;
+  padding-top: 20px;
+
 }
 .middle-container {
-  background-color: #A3DA8D;
+  margin: 100px 0;
 }
 .bottom-container {
   background-color: #A3DA8D;
+  padding: 50px 0 20px;
 }
 .top-cloud {
   position: absolute;
@@ -46,4 +67,59 @@ h3 {
 }
 .sam-img {
   width: 200px;
+}
+.skill-row {
+  width: 50%;
+  margin: 200px auto;
+  text-align: left;
+  line-height: 2;
+}
+.programming-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.tennis-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.profile {
+  width: 35%;
+  margin: auto;
+  line-height: 2;
+}
+.btn {
+  background: #b2eb99;
+  background-image: -webkit-linear-gradient(top, #b2eb99, #A3DA8D);
+  background-image: -moz-linear-gradient(top, #b2eb99, #A3DA8D);
+  background-image: -ms-linear-gradient(top, #b2eb99, #A3DA8D);
+  background-image: -o-linear-gradient(top, #b2eb99, #A3DA8D);
+  background-image: linear-gradient(to bottom, #b2eb99, #A3DA8D);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 100px auto;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.footer-link {
+  margin: 0 40px;
+}
+.copyright {
+  color: white;
+  font-size: 0.75rem;
 }
